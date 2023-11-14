@@ -1,3 +1,8 @@
+import Button from 'react-bootstrap/Button';
+import Container from 'react-bootstrap/Container';
+import Form from 'react-bootstrap/Form';
+import Nav from 'react-bootstrap/Nav';
+import Navbar from 'react-bootstrap/Navbar';
 export const Discover =() =>{
     return(
         <>
@@ -21,7 +26,7 @@ export const Discover =() =>{
                 </Nav>
                 <Form className="d-flex">
                     <Button variant="outline-success">CREATE</Button>
-                    
+                    </Form>
                 </Navbar.Collapse>
             </Container>
             </Navbar>

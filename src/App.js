@@ -8,6 +8,7 @@ import { Discover } from './components/Discover';
 
 
 
+
 function App() {
   return (
     <>
